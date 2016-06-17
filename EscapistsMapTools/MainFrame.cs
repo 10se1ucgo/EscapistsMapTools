@@ -14,7 +14,7 @@ namespace EscapistsMapTools {
         Encrypt
     }
 
-    public partial class MainForm : Form {
+    public partial class MainFrame : Form {
         private static string GamePath {
             get {
                 using (RegistryKey steamReg = Registry.CurrentUser.OpenSubKey(@"Software\Valve\Steam")) {
@@ -26,7 +26,7 @@ namespace EscapistsMapTools {
             }
         }
 
-        public MainForm() {
+        public MainFrame() {
             InitializeComponent();
             inputFileDialog.InitialDirectory = GamePath;
         }

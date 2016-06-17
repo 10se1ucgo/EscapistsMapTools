@@ -1,5 +1,5 @@
 ﻿namespace EscapistsMapTools {
-    partial class MainForm {
+    partial class MainFrame {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -23,7 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrame));
             this.inputFileButton = new System.Windows.Forms.Button();
             this.inputFileText = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -161,7 +161,7 @@
             this.encryptButton.UseVisualStyleBackColor = true;
             this.encryptButton.Click += new System.EventHandler(this.encryptButton_Click);
             // 
-            // MainForm
+            // MainFrame
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(284, 211);
@@ -178,7 +178,7 @@
             this.Controls.Add(this.inputFileButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(300, 250);
-            this.Name = "MainForm";
+            this.Name = "MainFrame";
             this.Text = "Escapists Map Tools";
             this.ResumeLayout(false);
             this.PerformLayout();

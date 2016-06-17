@@ -1,8 +1,8 @@
 # EscapistsMapTools
 
-I wanted to learn to use C# (outside of Unity), so I ported https://github.com/10se1ucgo/escapists-map-tools to C#.
-The original was pretty garbage, I wrote it as I was learning to program. You'll notice a lot of crappy code. 
-Hopefully the only thing you notice is my lack of understanding in minor things, such as conventions, Assemblies, ResX, etc.
+I wanted to learn to use C# (outside of Unity), so I ported [escapists-map-tools](https://github.com/10se1ucgo/escapists-map-tools) to C#.
+The original was pretty garbage, I wrote it as I was learning to program. You'll notice a lot of crappy code in that repo. 
+Hopefully the only thing you notice here is my lack of understanding in minor things, such as conventions, Assemblies, ResX, etc.
 
 Anyhow, features:
 
@@ -14,7 +14,8 @@ Anyhow, features:
 
 # USAGE
 
-1. Launch EMT.exe
+1. Download EMT from the `Releases` tab
+1. Launch `EMT.exe`
 2. Browse for input file
 3. Browse for output file
 4. Enter encryption key

@@ -60,9 +60,9 @@ namespace EscapistsMapTools.Encryption {
 
             // trim padding
             int i = reverseDecrypted.Length - 1;
-            do {
+            while (reverseDecrypted[i] == 0) {
                 i--;
-            } while (reverseDecrypted[i] == 0);
+            }
             byte[] temp = new byte[i + 1];
             Array.Copy(reverseDecrypted, temp, i + 1);
             return temp;
